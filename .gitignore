@@ -1,0 +1,25 @@
+# Build output & executables
+*.exe
+*.o
+*.a
+*.so
+bin/
+obj/
+
+# IDE / Environment settings
+.vscode/
+.vs/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Exceptions (Ensure JSON configs & assets are tracked)
+!assets/
+!assets/*.json
+
+!temp_assets/
+
+.json
+.txt
