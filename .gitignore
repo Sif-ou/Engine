@@ -15,11 +15,11 @@ obj/
 .DS_Store
 Thumbs.db
 
-# Exceptions (Ensure JSON configs & assets are tracked)
-!assets/
-!assets/*.json
-
-!temp_assets/
-
+# 1. Ignore ALL txt and json files by default FIRST
 *.txt
 *.json
+
+# 2. Add Exceptions LAST (un-ignore these specific paths)
+!assets/
+!assets/*.json
+!temp_assets/
